@@ -1,0 +1,66 @@
+INFO - 2024-11-20 06:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-20 06:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-20 06:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-20 06:28:34 --> Error: Call to undefined method App\Controllers\Products::respond()
+[Method: GET, Route: products/getProducts]
+in APPPATH\Controllers\Products.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->getProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-11-20 06:29:00 --> Error: Call to undefined method App\Controllers\Products::response()
+[Method: GET, Route: products/getProducts]
+in APPPATH\Controllers\Products.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->getProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-11-20 06:29:19 --> Error: Call to undefined method App\Controllers\Products::respond()
+[Method: GET, Route: products/getProducts]
+in APPPATH\Controllers\Products.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->getProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-11-20 06:29:28 --> Error: Call to undefined method App\Controllers\Products::response()
+[Method: GET, Route: products/getProducts]
+in APPPATH\Controllers\Products.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->getProducts()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-11-20 06:32:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: products/getProducts/]
+in APPPATH\Controllers\Products.php on line 146.
+ 1 APPPATH\Controllers\Products.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\ci4_project\\app\\Controllers\\Products.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->getProducts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-11-20 06:33:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: products/getProducts]
+in APPPATH\Controllers\Products.php on line 146.
+ 1 APPPATH\Controllers\Products.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\ci4_project\\app\\Controllers\\Products.php', 146)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->getProducts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+INFO - 2024-11-20 06:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

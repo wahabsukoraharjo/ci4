@@ -1,0 +1,108 @@
+CRITICAL - 2024-10-18 15:11:06 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: products]
+in APPPATH\Controllers\Products.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\ci4_project\\app\\Controllers\\Products.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Products')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Products')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Products', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:18:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/products.php"
+[Method: POST, Route: products/store]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/products.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/products', [], true)
+ 3 APPPATH\Controllers\Products.php(39): view('/products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->store()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:41:39 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: products]
+in APPPATH\Views\products\index.php on line 65.
+ 1 APPPATH\Views\products\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\ci4_project\\app\\Views\\products\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\ci4_project\\app\\Views\\products\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/index', [], true)
+ 5 APPPATH\Controllers\Products.php(15): view('products/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:41:41 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: products/edit/16]
+in APPPATH\Views\products\edit.php on line 53.
+ 1 APPPATH\Views\products\edit.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\ci4_project\\app\\Views\\products\\edit.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\ci4_project\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Products.php(58): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->edit('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:41:52 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: products/edit/16]
+in APPPATH\Views\products\edit.php on line 53.
+ 1 APPPATH\Views\products\edit.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\ci4_project\\app\\Views\\products\\edit.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\ci4_project\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Products.php(58): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->edit('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:41:53 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: products/edit/16]
+in APPPATH\Views\products\edit.php on line 53.
+ 1 APPPATH\Views\products\edit.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\laragon\\www\\ci4_project\\app\\Views\\products\\edit.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\ci4_project\\app\\Views\\products\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/edit', [], true)
+ 5 APPPATH\Controllers\Products.php(58): view('products/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->edit('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:48:23 --> ErrorException: Undefined variable $model
+[Method: GET, Route: products/delete/16]
+in APPPATH\Controllers\Products.php on line 94.
+ 1 APPPATH\Controllers\Products.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\laragon\\www\\ci4_project\\app\\Controllers\\Products.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->delete('16')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
+CRITICAL - 2024-10-18 15:48:50 --> ErrorException: Undefined variable $model
+[Method: GET, Route: products/delete/16]
+in APPPATH\Controllers\Products.php on line 94.
+ 1 APPPATH\Controllers\Products.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\laragon\\www\\ci4_project\\app\\Controllers\\Products.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Products->delete('16')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\ci4_project\\public\\index.php')
